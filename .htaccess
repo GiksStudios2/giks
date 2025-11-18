@@ -1,0 +1,5 @@
+# Optional: route everything to index.php (Apache). If you prefer not to use this, ignore.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.php [L,QSA]

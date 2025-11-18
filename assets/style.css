@@ -1,0 +1,4 @@
+/* Minimal custom styles */
+body { background: #f8f9fa; }
+.card { margin-bottom: 1rem; }
+footer { background: #fff; border-top: 1px solid #e9ecef; margin-top: 2rem; }
